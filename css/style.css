@@ -1,0 +1,28 @@
+html {
+    background: #edf2f9;
+    font-size: 20px;
+}
+
+h1 {
+    margin: 2rem;
+    text-align: center;
+    font: bold 3em sans-serif;
+}
+
+form {
+    margin-left: 300px;
+    padding: 1em;
+    border: 1px solid #edf2f9;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0 7px 15px #3b415e1a;
+}
+
+.campo {
+    padding-right: 30px;
+}
+
+#tbResult {
+    padding: 1em;
+}
+

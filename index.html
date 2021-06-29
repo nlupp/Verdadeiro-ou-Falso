@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Verdadeiro Ou Falso</title>
+</head>
+
+<body>
+    <h1>Verdadeiro ou Falso</h1>
+
+    <form id="VerdadeiroOuFalso">
+        <div>
+            <input type="text" id="texto1" class="campo">
+            <select name="seletor" id="seletor">
+                <option value="==">IGUAL</option>
+                <option value="!=">NÃO IGUAL</option>
+                <option value="===">ESTRITAMENTE IGUAL</option>
+                <option value="!==">ESTRITAMENTE NÃO IGUAL</option>
+            </select>
+            <input type="text" id="texto2" class="campo">
+            <input type="submit" class="submeter" value="verificar">
+        </div>
+
+        <br>
+        <div id="tabeResult">
+            <table id="tbResult">
+                <thead>
+                    <tr>
+                        <th id="valores"> Condição (Valores)</th>
+                        <th id="tipos"> Condição (Tipos)</th>
+                        <th id="result"> Resultado</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+    </form>
+
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
